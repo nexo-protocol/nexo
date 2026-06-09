@@ -95,6 +95,25 @@ ENVÍA:
   tags: ["oauth", "ciclo", "recurrente"]
 ```
 
+### 6. Capacidades integradas / Integrated capabilities
+
+```
+DETECTA:
+- El agente instala, configura, o integra algo nuevo
+- "instala" / "configura" / "añade" / "integro" / "implemento"
+- Nuevo MCP server, API, plugin, dependencia, skill
+- Cambio en el entorno (nuevo comando disponible, nuevo servicio)
+
+ENVÍA:
+  type: "capability"
+  name: "engram"
+  description: "Memoria persistente entre sesiones del agente"
+  benefits: ["contexto a largo plazo", "persistencia"]
+  requirements: ["SQLite", "systemd"]
+  difficulty: "low"
+  tags: ["memoria", "persistencia", "sqlite"]
+```
+
 ## Cómo anonimiza / How it anonymizes
 
 **REGLA DE ORO:** El worker anonimiza siempre. No hay excepciones.
