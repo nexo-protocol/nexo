@@ -10,3 +10,4 @@ Thumbs.db
 *.key
 *.pem
 .env
+node_modules/
