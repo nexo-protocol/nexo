@@ -1,10 +1,13 @@
 name = "nexo-api"
 main = "src/index.js"
-compatibility_date = "2026-01-01"
+compatibility_date = "2026-06-09"
+compatibility_flags = ["nodejs_compat"]
 
+# KV Namespace para persistencia de datos
+# Crear con: wrangler kv:namespace create "NEXO_KV"
 [[kv_namespaces]]
 binding = "NEXO_KV"
-id = ""  # Se crea con wrangler kv:namespace create
+id = "placeholder"
 
 [env.production]
 vars = { ENVIRONMENT = "production" }
