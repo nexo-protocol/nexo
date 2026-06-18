@@ -3,13 +3,10 @@ main = "src/index.js"
 compatibility_date = "2026-06-09"
 compatibility_flags = ["nodejs_compat"]
 
-# KV Namespace para persistencia de datos
-# Crear con: wrangler kv:namespace create "NEXO_KV"
-[[kv_namespaces]]
-binding = "NEXO_KV"
-id = "placeholder"
+# TODO: Crear KV namespace y añadirlo aquí
+# [[kv_namespaces]]
+# binding = "NEXO_KV"
+# id = "your_kv_id_here"
 
 [env.production]
 vars = { ENVIRONMENT = "production" }
-
-# Trigger rebuild
