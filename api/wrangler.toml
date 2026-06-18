@@ -2,11 +2,7 @@ name = "nexo-api"
 main = "src/index.js"
 compatibility_date = "2026-06-09"
 compatibility_flags = ["nodejs_compat"]
-
-# TODO: Crear KV namespace y añadirlo aquí
-# [[kv_namespaces]]
-# binding = "NEXO_KV"
-# id = "your_kv_id_here"
+workers_dev = true
 
 [env.production]
 vars = { ENVIRONMENT = "production" }
