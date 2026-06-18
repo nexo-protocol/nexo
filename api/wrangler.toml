@@ -4,5 +4,4 @@ compatibility_date = "2026-06-09"
 compatibility_flags = ["nodejs_compat"]
 workers_dev = true
 
-[env.production]
 vars = { ENVIRONMENT = "production" }
