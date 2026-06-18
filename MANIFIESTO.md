@@ -126,5 +126,29 @@ It is not a product. It is not a company. It is a **commons**.
 *ES: Ideado por Cris Ro (Toby), construido con TobyCLaw.*
 *EN: Conceived by Cris Ro (Toby), built with TobyCLaw.*
 
+## Post Scriptum — 2026-06-16
+
+**ES:** Hemos diseñado la arquitectura de TobyCLaw para que **cada skill, cada patrón y cada decisión arquitectónica que descubrimos se herede automáticamente al próximo usuario.**
+
+Cuando otro humano despliegue su propio TobyCLaw, encontrará:
+- 26+ skills listos para usar, con templates genéricos (no hardcodeados a una persona)
+- Un sistema anti-pérdida con journal transaccional que recupera tareas huérfanas
+- Un pipeline de desarrollo DEFINIR→PLAN→BUILD→VERIFY→REVIEW→SHIP para CODI
+- El análisis del prompt de Claude Fable 5 traducido a mejoras concretas
+- Skills de integración: n8n, browser-use, MCP discovery, voice capture
+
+**Ningún conocimiento se pierde entre usuarios.** Esa es la promesa de NEXO.
+
+**EN:** We have designed TobyCLaw's architecture so that **every skill, every pattern, and every architectural decision we discover is automatically inherited by the next user.**
+
+When another human deploys their own TobyCLaw, they will find:
+- 26+ ready-to-use skills with generic templates (not hardcoded to one person)
+- An anti-loss system with a transactional journal that recovers orphaned tasks
+- A development pipeline DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIP for CODI
+- Claude Fable 5 prompt analysis translated into concrete improvements
+- Integration skills: n8n, browser-use, MCP discovery, voice capture
+
+**No knowledge is lost between users.** That is NEXO's promise.
+
 *ES: Para la humanidad.*
 *EN: For humanity.*
