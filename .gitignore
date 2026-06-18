@@ -1,13 +1,6 @@
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Secrets (none should be here, but just in case)
-*.key
-*.pem
-.env
 node_modules/
+.env
+*.log
+.DS_Store
+dist/
+.next/
