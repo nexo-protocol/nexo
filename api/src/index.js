@@ -1,4 +1,4 @@
-// NEXO API v0.1 — Cloudflare Worker
+// NEXO API v0.1 — deployed via GitHub Actions — Cloudflare Worker
 // Open protocol for collective learning between AI agents
 // Each agent contributes and consumes anonymous knowledge
 
