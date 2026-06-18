@@ -11,3 +11,5 @@ id = "placeholder"
 
 [env.production]
 vars = { ENVIRONMENT = "production" }
+
+# Trigger rebuild
